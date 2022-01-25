@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.white-content {
+  background: rgb(236,217,148);
+background: radial-gradient(circle, rgba(236,217,148,1) 0%, rgba(184,237,196,1) 49%, rgba(207,222,242,1) 100%);
+}
+
+
+.dark-content{
+  background: rgb(124,102,22);
+background: radial-gradient(circle, rgba(124,102,22,1) 0%, rgba(5,63,18,1) 49%, rgba(0,0,0,1) 100%);
+}

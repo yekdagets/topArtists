@@ -1,0 +1,74 @@
+.imageDiv{
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    height: 6vmax !important;
+}
+
+.artistText{
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6vmax !important;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0025em;
+    color: white;
+}
+
+.divider{
+    color: rgb(78, 62, 41);
+    height: 1vmax !important;
+}
+
+.artistName{
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vmax !important;
+    margin-top: 1vmax !important;
+    color: #bfd8ca !important;
+}
+
+.detailText{
+    font-size: 0.8vmax !important;
+    color: #bfd8ca !important;
+    line-height: 0vw !important;
+    margin-block-end: 0em !important;
+    margin-block-start: 0em !important;
+
+}
+
+@media only screen and (max-width: 884px) {
+    .detailText {
+        font-size: 0.8vmax !important;
+        color: #bfd8ca !important;
+        line-height: 0vw !important;
+        margin-block-end: 3em !important;
+        margin-block-start: 0em !important;
+    }
+  }
+
+.listeners{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vmax !important;    
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #bfd8ca;
+}
+
+.detailButton{
+ 
+
+background: linear-gradient(146.49deg, #c7c9e2 -1.31%, #baddaa 31.21%, #151A29 67.71%, #8ff0f3 107.52%);
+box-shadow: 0px 0px 16px rgba(212, 182, 156, 0.9), 0px 4px 44px rgba(64, 124, 111, 0.4);
+border-radius: 60px !important;
+width: 11vmax !important;
+margin-top: 1vmax !important;
+text-align: center !important;
+height: 1.8vmax !important;
+
+
+}

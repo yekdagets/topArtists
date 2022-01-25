@@ -1,0 +1,71 @@
+.artistBox{
+    background: linear-gradient(180deg, #119069 0%, #212532 100%);
+    box-shadow: 0px 4px 4px rgba(250, 151, 189, 0.25), 0px 0px 12px #02413b;
+    border-radius: 16px;
+    height: 10vmax;
+    margin-bottom: 2vh;
+}
+
+.albumBox{
+    background: linear-gradient(180deg, #305248 0%, #e2e9ff 100%);
+
+    
+    box-shadow: 0px 4px 4px rgba(238, 108, 158, 0.25), 0px 0px 12px #06332f;
+    border-radius: 6px;
+    margin-bottom: 2vmax;
+}
+
+.indexNo{
+    padding: 0.21vh !important;
+    color: white;
+    font-size: 1.5vmax !important;
+    line-height: 2vw !important;
+}
+
+.singleArtist{
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vmax !important;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0025em;
+    color: rgb(4, 46, 18);
+}
+
+.singleAlbum{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 1.2vmax !important;
+    color: #032713 !important;
+}
+
+.showmeonhover { 
+    display: none; 
+}
+
+.singleAlbum:hover .showmeonhover {
+    display: inline;
+}
+
+.singleAlbum:hover .open {
+    display: none;
+}
+
+.singleAlbum:hover {
+    text-align: center;
+}
+
+.singleAlbumImg{
+    padding:0.5vw !important;
+}
+
+.topartistText{
+    color: rgb(25, 27, 27);
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    font-size: 2vmax;
+    text-shadow: 0.1rem 0.1rem 1rem rgba(218, 228, 213, 0.342);
+}
